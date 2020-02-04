@@ -1,0 +1,14 @@
+-- Initialisation
+git init 
+
+-- Configuration
+git config --global user.name "[nom]"
+git config --global user.email "[email]"
+git config --global color.ui auto
+
+-- Sauvegarder
+git add * ou [tadresseFichier + extention]
+git commit -m "[commentaires]"
+
+--envoyer sur gitHub après avoir sauvegardé
+git push -u origin master
