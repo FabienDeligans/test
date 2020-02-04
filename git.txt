@@ -14,13 +14,13 @@ git commit -a -m "[commentaires]"
 git reset -- soft HEAD~[N° de version]
 git reset -- hard HEAD~[N° de version]
 
-    -- Se connecter à un dépot distant
+    -- Se connecter à une origin distante
 git remote add origin [adresse distante]
 
     -- Voir les dépots distant
 git remote -v 
 
-    -- Envoyer sur gitHub après avoir sauvegardé
+    -- Envoyer sur "origin master" après avoir sauvegardé
 git push -u origin master
 
     -- Télécharge un projet et toutes ses versions
@@ -29,3 +29,8 @@ git clone [url]
     -- Visualisation graphique
 gitk
 
+    -- Visualisation historique des dépots
+git log
+
+    -- Visualisation du status
+git status
