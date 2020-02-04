@@ -14,13 +14,21 @@ git commit -a -m "[commentaires]"
 git reset -- soft HEAD~[N° de version]
 git reset -- hard HEAD~[N° de version]
 
+<<<<<<< HEAD
     -- Se connecter à une origin distante
+=======
+    -- Se connecter à un dépot distant
+>>>>>>> 5e5e47fc024d4406ce0ba000eb1010e6e2989db0
 git remote add origin [adresse distante]
 
     -- Voir les dépots distant
 git remote -v 
 
+<<<<<<< HEAD
     -- Envoyer sur "origin master" après avoir sauvegardé
+=======
+    -- Envoyer sur gitHub après avoir sauvegardé
+>>>>>>> 5e5e47fc024d4406ce0ba000eb1010e6e2989db0
 git push -u origin master
 
     -- Télécharge un projet et toutes ses versions
@@ -29,8 +37,11 @@ git clone [url]
     -- Visualisation graphique
 gitk
 
+<<<<<<< HEAD
     -- Visualisation historique des dépots
 git log
 
     -- Visualisation du status
 git status
+=======
+>>>>>>> 5e5e47fc024d4406ce0ba000eb1010e6e2989db0
