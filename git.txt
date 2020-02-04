@@ -23,3 +23,9 @@ git remote -v
     -- Envoyer sur gitHub après avoir sauvegardé
 git push -u origin master
 
+    -- Télécharge un projet et toutes ses versions
+git clone [url]
+
+    -- Visualisation graphique
+gitk
+
