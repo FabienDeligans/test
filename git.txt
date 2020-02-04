@@ -1,0 +1,31 @@
+    -- Initialisation
+git init 
+
+    -- Configuration
+git config --global user.name "[nom]"
+git config --global user.email "[email]"
+git config --global color.ui auto
+
+    -- Sauvegarder
+git add * ou [tadresseFichier + extention]
+git commit -a -m "[commentaires]"
+
+    -- Revenir à une version précédente
+git reset -- soft HEAD~[N° de version]
+git reset -- hard HEAD~[N° de version]
+
+    -- Se connecter à un dépot distant
+git remote add origin [adresse distante]
+
+    -- Voir les dépots distant
+git remote -v 
+
+    -- Envoyer sur gitHub après avoir sauvegardé
+git push -u origin master
+
+    -- Télécharge un projet et toutes ses versions
+git clone [url]
+
+    -- Visualisation graphique
+gitk
+
