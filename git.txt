@@ -35,5 +35,13 @@ git log
     -- Visualisation du status
 git status
 
+    -- Création d'une nouvelle branche 
+git branch [nom de la branche]
+
+    -- Navigation dans les branches
+git branch
+git checkout [nom de la branche où aller ]
+
+
 test nouvelle branche
 
