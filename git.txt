@@ -44,6 +44,6 @@ git checkout [nom de la branche où aller ]
 git merge [nom de la branche à fusionner dans la branche active]
 
 
-fin
+
 
 
